@@ -12,6 +12,7 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { VideoListComponent } from './video-list/video-list.component';
 import { AddVideoComponent } from './add-video/add-video.component';
 import { VideosService } from './videos.service';
+import { windowProvider } from '../window';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,10 @@ import { VideosService } from './videos.service';
       { path: 'addvideo', component: AddVideoComponent }      
     ])
   ],
-  providers: [VideosService],
+  providers: [
+    VideosService,
+    windowProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
