@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { VideoListComponent } from './video-list/video-list.component';
+import { AddVideoComponent } from './add-video/add-video.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VideoListComponent } from './video-list/video-list.component';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    VideoListComponent
+    VideoListComponent,
+    AddVideoComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
