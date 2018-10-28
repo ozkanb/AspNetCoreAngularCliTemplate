@@ -11,6 +11,7 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { VideoListComponent } from './video-list/video-list.component';
 import { AddVideoComponent } from './add-video/add-video.component';
+import { VideosService } from './videos.service';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { AddVideoComponent } from './add-video/add-video.component';
       { path: 'addvideo', component: AddVideoComponent }      
     ])
   ],
-  providers: [],
+  providers: [VideosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
