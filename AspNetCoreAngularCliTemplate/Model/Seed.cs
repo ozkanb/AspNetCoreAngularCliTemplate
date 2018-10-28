@@ -19,29 +19,15 @@ namespace AspNetCoreAngularCliTemplate.Model
                 context.Videos.AddRange(
                     new Video
                     {
-                        Title = "Raghuvamsa Sudha",
-                        Link = "https://www.youtube.com/watch?v=l89ZaBqYiTA",
+                        Title = "Hans Zimmer - Dust (Interstellar Soundtrack)",
+                        Link = "https://www.youtube.com/watch?v=-0_VuwvvS-k",
                         Genre = "Music",
                         Watched= true
                     },
                     new Video
                     {
-                        Title = "Kapil finds a match for Sarla",
-                        Link = "https://www.youtube.com/watch?v=GfHEPKgkkpw",
-                        Genre = "Comedy",
-                        Watched = true
-                    },
-                    new Video
-                    {
-                        Title = "Arvind Gupta TED Talk",
-                        Link = "https://www.youtube.com/watch?v=KnCqR2yUXoU",
-                        Genre = "Inspirational",
-                        Watched = true
-                    },
-                    new Video
-                    {
-                        Title = "Event Loop - Philip Roberts",
-                        Link = "https://www.youtube.com/watch?v=8aGhZQkoFbQ",
+                        Title = "But what *is* a Neural Network? | Deep learning, chapter 1",
+                        Link = "https://www.youtube.com/watch?v=aircAruvnKk&t=7s",
                         Genre = "Tech",
                         Watched = true
                     }
