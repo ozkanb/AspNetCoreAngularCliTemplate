@@ -27,6 +27,16 @@
                         <span class='glyphicon glyphicon-th-list'></span> Fetch data
                     </a>
                 </li>
+                <li [routerLinkActive]='["link-active"]'>
+                    <a [routerLink]='["/videolist"]' (click)='collapse()'>
+                        <span class='glyphicon glyphicon-home'></span> Video List
+                    </a>
+                </li>
+                <li [routerLinkActive]='["link-active"]'>
+                    <a [routerLink]='["/addvideo"]' (click)='collapse()'>
+                        <span class='glyphicon glyphicon-plus'></span> Add Video
+                    </a>
+                </li>                
             </ul>
         </div>
     </div>
